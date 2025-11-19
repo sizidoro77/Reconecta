@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/partials/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Reconecta</title>
+</head>
+<body>
+
+
+    <!-- LOGIN -->
+    <div class="loginContainer">
+        <form>
+            <!-- TÍTULO PRINCIPAL-->
+            <h1><span class="reco">RECO</span> <span class="necta">NECTA</span></h1>
+
+            <br>
+            
+            <!-- USERNAME -->
+            <div class="inputBox">
+                <input type="text" id="username" placeholder="Digite seu nome" required>
+                <i class="fa-solid fa-user"></i>
+                <br>
+            </div>
+
+            <br>
+
+            <!-- PASSWORD -->
+            <div class="inputBox">
+                <input type="password" id="password" placeholder="Digite sua senha" required>
+                <i class="fa-solid fa-key"></i>
+                <br>
+            </div>
+
+            <br>
+
+            <!-- LOGIN BUTTON -->
+            <div class="loginButton"> 
+                <button type="button" onclick="logar()"; return false id="btnEstagiario">Estagiário</button>
+                <button type="button" onclick="logar()" ="btnMonitor">Monitor</button>
+            </div>
+        </form>
+    </div>
+
+    <script>
+      function logar() {
+            const username = document.getElementById('username').value.trim();
+            const password = document.getElementById('password').value.trim();
+
+            if (username === "samuel" && password === "Sd112406"){
+                alert("Verificado com sucesso!");
+                window.location.href= "estagiário.html";
+            } 
+            else if (username === "monitor" && password === "M112406"){
+                alert("Verificando com sucesso!");
+                window.location.href = "monitor.html";
+            } 
+            else {
+                alert("Usuário ou senha incorretos!");
+            }
+        }
+
+    </script>
+
+
+</body>
+</html>

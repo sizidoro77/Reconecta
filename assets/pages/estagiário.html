@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/partials/menu.css">
+    <title>Estagiário</title>
+</head>
+<body>
+        <div class="menu" id="menu">
+            <span id="bemVindo">Bem vindo,<span id="menuUser"></span></span>
+            <button type="button" id="bntPerfil">Meu Perfil</button>
+        </div>
+
+        <!-- Informações do Perfil -->
+        <div class="overlay" id="overlay" aria-hidden="true" role="dialog">
+            <div class="profile-card" role="document" aria-labelledby="profileName">
+                <div class="profile-top">
+                    <button class="back-btn" id="backBtn" aria-label="Voltar">← Voltar</button>
+                    <h2 id="profilName" class="profile-name">Samuel</h2>
+                </div>
+            </div>
+            <br>
+
+            <div class="profile-info">
+                    <div class="info">
+                        <p>Pontos: <span id="points"></span></p><br>
+                    </div>
+                    <br>
+                    <div class="feedbacklist">
+                        <p class="feedbacks">Feeedbacks Recebidos:</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Script -->
+
+            <script>
+                const bntPerfil = document.getElementById("bntPerfil")
+                const overlay = document.getElementById("overlay")
+                const backBtn = document.getElementById("backBtn")
+                const pointsEl = document.getElementById("points");
+                const feedbackContainer = document.querySelector(".feedbacklist");
+
+                // Criar a lista de feedbacks
+                const feedbackList = document.createElement("ul");
+                feedbackContainer.appendChild(feedbackList);
+
+                
+
+                // Esconde o overlay 
+
+                overlay.style.display = "none";
+
+               bntPerfil.addEventListener("click", () => {
+                overlay.style.display = overlay.style.display === "none" ? "block" : "none";
+               }); 
+
+               backBtn.addEventListener("click", () => {
+                window.location.href = "login.html"; 
+               })
+
+               // Ao carregar a página
+               window.addEventListener("DOMContentLoaded", () => {
+                // Atualiza Pontos
+                const storedPoints = Number(localStorage.getItem("samuelPoints")) || 0;
+                pointsEl.textContent = storedPoints;
+
+
+                // Careega os feedbacks 
+                const storedFeedbacks = JSON.parse(localStorage.getItem("samuelFeedbacks")) || [];
+            
+
+                // Exibir feedbacks na tela
+                storedFeedbacks.forEach(fb => {
+                    const li = document.createElement("li");
+                    li.textContent = fb;
+                    feedbackList.appendChild(li);
+                });
+            });
+        
+            </script>
+        
+
+</body>
+</html>
