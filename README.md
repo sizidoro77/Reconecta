@@ -22,5 +22,4 @@ git clone https://github.com/sizidoro77/NOME-DO-PROJETO.git
 
 <h2 id="license">Licença 📃 </h2>
 
-Esse projeto está sob Licença
-
+Esse projeto está sob Licença https://github.com/sizidoro77/Reconecta?tab=License-1-ov-file
