@@ -26,11 +26,10 @@ O objetivo é facilitar a análise de desempenho sem depender de sistemas comple
 
 ## 🧩 Funcionalidades Principais
 
-- Cadastro de estagiários  
-- Registro e acompanhamento de tarefas  
-- Avaliação visual de desempenho  
-- Interface simples e intuitiva  
-
+- Cadastro de estagiários.  
+- Registro e acompanhamento de tarefas por pontos.
+- Avaliação visual de desempenho.
+- 
 ---
 
 ## 🚀 Tecnologias Utilizadas
@@ -47,3 +46,19 @@ O objetivo é facilitar a análise de desempenho sem depender de sistemas comple
 
 ```bash
 git clone https://github.com/sizidoro77/NOME-DO-PROJETO.git
+```
+
+```bash
+cd NOME-DO-PROJETO
+```
+
+## 📃 Licença
+
+Este projeto está sob licença MIT. Veja o arquivo LICENCE.
+
+## 👤 Autor
+
+<p align="left"> <a href="https://github.com/sizidoro77"> <img src="https://github.com/user-attachments/assets/8cac2211-8df8-47c6-bda1-4ac487f8ea3a" width="120" height="120" style="border-radius: 50%; object-fit:cover" /> </a> </p>
+
+<b>Desenvolvido por Samuel Izidoro</b>
+
