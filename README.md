@@ -63,6 +63,44 @@ git clone https://github.com/sizidoro77/Reconecta.git
 cd Reconecta
 ```
 
+---
+
+## 🔐 Como Funciona o Login
+
+O Reconecta possui **duas formas de acesso**: uma para o **estagiário** e outra para o **monitor**.  
+Cada perfil possui credenciais específicas e acessa páginas diferentes dentro do sistema.
+
+A página de login pode ser acessada (após rodar com Live Server) em:
+
+http://127.0.0.1:5501/assets/pages/login.html 
+
+### 👨‍🎓 Acesso do Estagiário
+
+Use as credenciais abaixo para entrar como estagiário:
+
+- **Usuário:** `samuel`  
+- **Senha:** `Sd112406`
+
+Esse perfil permite visualizar tarefas, progresso e avaliações.
+
+---
+
+### 👨‍🏫 Acesso do Monitor
+
+Para acessar como monitor:
+
+- **Usuário:** `monitor` *(tudo minúsculo)*  
+- **Senha:** `M112406`
+
+Esse acesso permite:
+
+- Avaliar estagiários  
+- Registrar pontos  
+- Acompanhar desempenho geral  
+
+---
+
+
 ## 📃 Licença
 
 Este projeto está sob licença MIT. Veja o arquivo [LICENSE](./LICENCE).
