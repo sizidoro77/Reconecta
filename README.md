@@ -14,13 +14,10 @@
 
 ## 💡 Sobre o Projeto
 
-O **Reconecta** é um sistema simples desenvolvido com **HTML, CSS e JavaScript**, criado para facilitar o processo de avaliação de estagiários dentro de empresas.
-
-A proposta é oferecer uma solução leve, funcional e sem necessidade de servidores complexos. Entre as principais capacidades do sistema, é possível:
+O **Reconecta** é um sistema desenvolvido com **HTML, CSS e JavaScript**, oferecendo uma solução leve, funcional e sem necessidade de servidores complexos. Entre as principais capacidades do sistema, é possível:
 
 - Registrar estagiários  
 - Avaliar tarefas e desempenho  
-- Exibir informações de forma organizada e visual  
 - Tornar o processo de feedback mais ágil e estruturado  
 
 O objetivo é reduzir burocracias e centralizar avaliações em uma interface amigável e intuitiva.
@@ -65,12 +62,13 @@ cd Reconecta
 
 ---
 
+<br>
+
 ## 🔐 Como Funciona o Login
 
-O Reconecta possui **duas formas de acesso**: uma para o **estagiário** e outra para o **monitor**.  
-Cada perfil possui credenciais específicas e acessa páginas diferentes dentro do sistema.
+O Reconecta possui **duas formas de acesso* uma para o **estagiário** e outra para o **monitor**.  
 
-A página de login pode ser acessada (após rodar com Live Server) em:
+A página de login pode ser acessada em:
 
 http://127.0.0.1:5501/assets/pages/login.html 
 
