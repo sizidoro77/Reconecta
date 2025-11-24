@@ -20,6 +20,10 @@ _Link do Projeto:_
 git clone https://github.com/sizidoro77/NOME-DO-PROJETO.git
 ```
 
+```bash
+cd NOME-DO-PROJETO
+```
+
 <h2 id="license">Licença 📃 </h2>
 
 Esse projeto está sob Licença [LICENSE](./LICENCE)
