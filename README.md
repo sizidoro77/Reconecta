@@ -10,7 +10,7 @@
 
 _Link do Projeto:_
 
-<h2 id="templates">📝 Instruções de Uso: </h2>
+<h2 id="templates">Instruções de rodar 📝</h2>
 
 <p>
 <b>1. Clone o repositório</b>
@@ -24,9 +24,7 @@ git clone https://github.com/sizidoro77/NOME-DO-PROJETO.git
 
 Esse projeto está sob Licença https://github.com/sizidoro77/Reconecta?tab=License-1-ov-file
 
-<br> 
-
-<h2 id="license">Contribuições</h2>
+<h2 id="license">Ator</h2>
 
 <p><b>Esse projeto foi criado por mim.</b></p>
 
