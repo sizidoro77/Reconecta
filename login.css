@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Roboto:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #121212;
+}
+
+/* Container Login */
+
+.loginContainer {
+  width: 420px;     
+  height: 290px;    
+  background-color: #1E1E1E;
+  border-radius: 16px;
+  color: #fff;
+  padding: 25px 30px;
+  text-align: center;
+}
+
+/* Logo */
+
+.reco {
+  color: #FFA500;
+}
+
+.necta {
+  color: #fff;
+}
+
+/* Input */ 
+
+.inputBox {
+  position: relative;
+  width: 100%;
+  height: 44px;       
+  margin: -5px 0;
+}
+
+
+.inputBox input {
+  width: 100%;
+  height: 100%;
+  padding-left: 38px; 
+  background-color: #2C2C2C;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+/* Ícone dentro do input */
+
+.inputBox input::placeholder {
+  color: #6C6C6C;
+  font-size: 15px;
+}
+
+
+/* ícone dentro do input */ 
+
+
+.inputBox i {
+  position: absolute;
+  left: 12px; 
+  top: 50%;   
+  transform: translateY(-50%);
+  font-size: 15px;
+  color: #fff;
+}
+
+/* Botão de Login */ 
+
+.loginButton {
+  display: flex;   
+  justify-content: center;     
+  gap: 40px;  
+  margin-top: 10px;
+}
+
+.loginButton button {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 20px;
+  background-color: #FFA500;
+  font-size: 16px;
+  cursor: pointer;
+  color: #121212;
+}
+
+
