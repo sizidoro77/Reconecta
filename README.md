@@ -14,13 +14,16 @@
 
 ## 💡 Sobre o Projeto
 
-O Sistema de Avaliação de Estagiários é uma aplicação web simples, construída com **HTML, CSS e JavaScript**, que permite:
+O **Reconecta** é um sistema simples desenvolvido com **HTML, CSS e JavaScript**, criado para facilitar o processo de avaliação de estagiários dentro de empresas.
+
+A proposta é oferecer uma solução leve, funcional e sem necessidade de servidores complexos. Entre as principais capacidades do sistema, é possível:
 
 - Registrar estagiários  
 - Avaliar tarefas e desempenho  
-- Visualizar informações de forma organizada  
+- Exibir informações de forma organizada e visual  
+- Tornar o processo de feedback mais ágil e estruturado  
 
-O objetivo é facilitar a análise de desempenho sem depender de sistemas complexos ou ferramentas externas.
+O objetivo é reduzir burocracias e centralizar avaliações em uma interface amigável e intuitiva.
 
 ---
 
@@ -34,15 +37,23 @@ O objetivo é facilitar a análise de desempenho sem depender de sistemas comple
 
 ## 🧩 Funcionalidades Principais
 
-- Cadastro de estagiários.  
-- Registro e acompanhamento de tarefas por pontos.
-- Avaliação visual de desempenho.
+- Cadastro de estagiários  
+- Atribuição de tarefas e sistema de pontuação  
+- Avaliação visual do progresso  
+- Interface organizada e fácil de navegar  
 
 ---
 
 ## 📝 Como Rodar o Projeto
 
-1. Clone o repositório:
+O **arquivo principal do sistema é o `login.html`**, que funciona como porta de entrada para acessar as outras páginas do projeto.
+
+### ✔️ Opção 1: Abrir diretamente no navegador  
+1. No VS Code, instale a extensão **Live Server**  
+2. Abra o arquivo **`login.html`**  
+3. Clique em **Go Live** no canto inferior direito  
+
+### ✔️ Clonando o repositório 
 
 ```bash
 git clone https://github.com/sizidoro77/NOME-DO-PROJETO.git
@@ -55,6 +66,7 @@ cd NOME-DO-PROJETO
 ## 📃 Licença
 
 Este projeto está sob licença MIT. Veja o arquivo [LICENSE](./LICENCE).
+
 
 ## 👤 Autor
 
