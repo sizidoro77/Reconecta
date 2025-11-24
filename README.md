@@ -56,11 +56,11 @@ O **arquivo principal do sistema é o `login.html`**, que funciona como porta de
 ### ✔️ Clonando o repositório 
 
 ```bash
-git clone https://github.com/sizidoro77/NOME-DO-PROJETO.git
+git clone https://github.com/sizidoro77/Reconecta.git
 ```
 
 ```bash
-cd NOME-DO-PROJETO
+cd Reconecta
 ```
 
 ## 📃 Licença
