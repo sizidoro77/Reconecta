@@ -3,7 +3,6 @@
 </p>
 
 
-
 <p align="center">
 <b>Esse Projeto foi desenvolvido para tornar o processo de avaliação mais dinâmico e eficiente.👩‍💻</b>
 </p>
