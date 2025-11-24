@@ -23,3 +23,19 @@ git clone https://github.com/sizidoro77/NOME-DO-PROJETO.git
 <h2 id="license">Licença 📃 </h2>
 
 Esse projeto está sob Licença https://github.com/sizidoro77/Reconecta?tab=License-1-ov-file
+
+<br> 
+
+<h2 id="license">Contribuições</h2>
+
+<p><b>Esse projeto foi criado por mim.</b></p>
+
+<a href="https://github.com/sizidoro77">
+  <img 
+    src="https://github.com/user-attachments/assets/8cac2211-8df8-47c6-bda1-4ac487f8ea3a"
+    alt="Foto do autor do projeto"
+    style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;"
+  />
+</a>
+
+
