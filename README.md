@@ -2,15 +2,25 @@
     <img src="./assets/imgs/Yellow Illustrative Social Media Marketing LinkedIn Article Cover Image.jpg">
 </p>
 
+<br>
 
 <p align="center">
-<b>Esse Projeto foi desenvolvido para tornar o processo de avaliação mais dinâmico e eficiente.👩‍💻</b>
+<b>Esse Projeto foi desenvolvido para tornar o processo de avaliação do estagiário mais dinâmico e eficiente.👩‍💻</b>
 </p>
 
-_Link do Projeto: ./translations/README-ptBR_
+_Link do Projeto:_
 
-<h2> 🚀 Principais Tecnologias</h2>
+<h2 id="templates">📝 Instruções de Uso: </h2>
 
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) 
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JAVA](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+<p>
+<b>1. Clone o repositório</b>
+</p>
+
+```bash
+git clone https://github.com/sizidoro77/NOME-DO-PROJETO.git
+```
+
+<h2 id="license">Licença 📃 </h2>
+
+Esse projeto está sob Licença
+
