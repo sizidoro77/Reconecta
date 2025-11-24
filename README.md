@@ -14,6 +14,19 @@
 <b>Esse Projeto foi desenvolvido para tornar o processo de avaliação do estagiário mais dinâmico e eficiente.👩‍💻</b>
 </p>
 
-_Link do Projeto: ./translations/README-ptBR_
+_Link do Projeto:_
 
+<h2 id="templates">📝 Instruções de Uso: </h2>
+
+<p>
+<b>1. Clone o repositório</b>
+</p>
+
+```bash
+git clone https://github.com/sizidoro77/NOME-DO-PROJETO.git
+```
+
+<h2 id="license">Licença 📃 </h2>
+
+Esse projeto está sob Licença
 
