@@ -24,7 +24,7 @@ git clone https://github.com/sizidoro77/NOME-DO-PROJETO.git
 
 Esse projeto está sob Licença [LICENSE](./LICENCE)
 
-<h2 id="license">Ator</h2>
+<h2 id="license">Ator 👤</h2>
 
 <p><b>Esse projeto foi criado por mim.</b></p>
 
