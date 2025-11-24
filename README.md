@@ -66,7 +66,7 @@ cd Reconecta
 
 ## 🔐 Como Funciona o Login
 
-O Reconecta possui **duas formas de acesso* uma para o **estagiário** e outra para o **monitor**.  
+O Reconecta possui **duas formas de acesso** uma para o **estagiário** e outra para o **monitor**.  
 
 A página de login pode ser acessada em:
 
